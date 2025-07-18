@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Buttons</title>
+  <style>
+    body {
+      display: flex;
+      gap: 20px;
+      padding: 40px;
+      background: #e5ece8;
+      font-family: sans-serif;
+    }
+
+    /* 1. Flat Button */
+    .btn-flat {
+      background: #69a7d1;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    /* 2. Gradient Button */
+    .btn-gradient {
+      background: linear-gradient(45deg, #592273, #f06595);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    /* 3. Outline Button */
+    .btn-outline {
+      background: transparent;
+      color: #0871da;
+      border: 2px solid #2c3e50;
+      padding: 10px 22px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    /* 4. 3D Button */
+    .btn-3d {
+      background: #033a1a;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      box-shadow: 0 5px #1e8449;
+      cursor: pointer;
+    }
+
+    .btn-3d:active {
+      box-shadow: 0 2px #52a505;
+      transform: translateY(3px);
+    }
+
+    /* 5. Neumorphic Button */
+    .btn-neu {
+      background: #e0e0e0;
+      color: #333;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 12px;
+      box-shadow: 5px 5px 15px #bebebe,
+                  -5px -5px 15px #ffffff;
+      cursor: pointer;
+    }
+
+    .btn-neu:active {
+      box-shadow: inset 5px 5px 10px #bebebe,
+                  inset -5px -5px 10px #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="btn-flat">Flat Style</button>
+  <button class="btn-gradient">Gradient Style</button>
+  <button class="btn-outline">Outline Style</button>
+  <button class="btn-3d">3D Style</button>
+  <button class="btn-neu">Neumorphic Style</button>
+
+</body>
+</html>
