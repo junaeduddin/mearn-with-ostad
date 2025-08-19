@@ -49,3 +49,25 @@ function percentageCalculation() {
 }
 
 percentageCalculation();
+
+
+
+// ফাংশন কে ভেরিয়েবল হিসেবে রেখে কাজ করা 
+// Function expression
+// Function assigned to a variable
+// ফাংশন এর ভিতরে ফাংশন ডিক্লেয়ার করা
+// Function inside a function
+
+let multiply = function() {
+    let x = 5;
+    let y =  function() {
+        let y = 2;
+        return y + 13; // Returns 15
+    };
+    return x * y();
+}
+
+console.log(multiply());
+
+
+
