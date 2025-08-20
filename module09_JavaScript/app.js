@@ -71,3 +71,9 @@ console.log(multiply());
 
 
 
+let add = function () {
+    let a = 10;
+    let b = 20;
+    return a + b; // Returns 30
+}
+console.log(add()); // Outputs: 30
