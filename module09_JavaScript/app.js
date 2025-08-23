@@ -1,7 +1,7 @@
 // ফাংশনের সংজ্ঞা এবং কল করা
 function functionName(parameter) {
     // Function body goes here
-    return value; // Return statement
+   return value; // Return statement
 }
 
 
