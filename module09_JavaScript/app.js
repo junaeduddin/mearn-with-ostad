@@ -71,9 +71,13 @@ console.log(multiply());
 
 
 
-let add = function () {
-    let a = 10;
-    let b = 20;
-    return a + b; // Returns 30
+// Template string/literals ব্যবহার
+function greet(name) {
+    return `Hello, ${name}! Welcome to the world of JavaScript.`;
 }
-console.log(add()); // Outputs: 30
+console.log(greet("Developer")); // Outputs: Hello, Developer! Welcome to the world of JavaScript. 
+
+
+// let students = 30
+// students += 20
+// console.log(students)
